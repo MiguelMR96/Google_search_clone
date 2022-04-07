@@ -5,8 +5,43 @@ body {
     width: 100%;
 }
 
-/* Header */
+nav  ul {
+    list-style: none;
+}
 
-nav  div  a {
-    color: black;
+.search-icon {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#search-field {
+    border-radius: 55px;
+    width: 500px;
+    padding-left: 35px;
+}
+
+#g-logo {
+    float: left;
+    padding-left: 10px;
+}
+
+.a-table {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.a-table input[type=text] {
+    width: 100%;
+}
+
+.bttn {
+    text-align: right;
+}
+
+.a-table tr td {
+    padding: 15px;
 }

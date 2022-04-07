@@ -5,37 +5,38 @@
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/f755ca9076.js" crossorigin="anonymous"></script>
-        <title>Google Search</title>
+        <title>Images Search</title>
     </head>
     <body>
         <!-- Start Header -->
         <header>
             <nav>
                 <ul class="d-flex flex-row justify-content-end pe-3 mb-5">
-                    <li><a href="images.html" class="me-3 text-decoration-none">Images</a></li>
+                    <li><a href="index.html" class="me-3 text-decoration-none">Google Search</a></li>
                     <li><a href="advanced.html" class="text-decoration-none">Advanced Search</a></li>
                 </ul>
             </nav>
         </header>
         <!-- End Header -->
         <!-- Main Section -->
-        <div id="main-body" class="d-flex flex-column align-items-center mt-4">
+        <div id="main-body" class="d-flex flex-column align-items-center mt-5">
             <div>
-                <img src="images/Google-Search-Logo.png" alt="Google-logo" width="400">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/800px-Google_Images_2015_logo.svg.png" alt="Google-logo" width="400">
             </div>
-            <div>
+            <div class="mt-5">
                 <form action="https://google.com/search">
-                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input id="search-field" class="form-control" type="text" name="q">
-                    <div class="mt-1 d-flex justify-content-center">
-                        <input class="btn btn-primary m-1" type="submit" value="Google Search">
-                        <input class="btn btn-primary m-1" type="submit" value="I'm Feeling Lucky" name="btnI">
+                    <div id="search-wrapper" class="d-flex">
+                        <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="hidden" name="tbm" value="isch">
+                        <input id="search-field" class="form-control" type="text" name="q">
+                        <input class="btn btn-primary m-1" type="submit" value="Search Image">
                     </div>
                 </form>
             </div>
         </div>
         <!-- End Main Section -->
         <footer>
+
         </footer>
     </body>
 </html>
